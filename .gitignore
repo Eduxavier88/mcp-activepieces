@@ -1,0 +1,38 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Ambientes
+.env
+.env.local
+.env.*.local
+
+# Diretórios gerados por Docker volumes (exemplo, se usados)
+activepieces/data/
+mcp-server/data/
+llm/models/
+
+# Diretórios temporários
+tmp/
+temp/
+.cache/
+
+# Node.js (caso use em algum ponto)
+node_modules/
+dist/
+
+# Python (caso use algo com scripts)
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# VSCode e arquivos de sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# GitHub Actions cache
+.github/workflows/*.log
+
+# Ollama local 
+~/.ollama/
